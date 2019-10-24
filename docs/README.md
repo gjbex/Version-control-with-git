@@ -11,7 +11,7 @@ A version control systems helps you keep track of
   * who made the change.
 
 
-# Learning outcomes
+## Learning outcomes
 
 When you complete this training you will be able to
 
@@ -21,34 +21,38 @@ When you complete this training you will be able to
   * examine the history of a project.
 
 
-# Schedule
+## Schedule
 
-  | Time        | Subject                     |
-  |-------------|-----------------------------|
-  | 09:00-09:15 | introduction and motivation |
-  | 09:15-10:30 | git in single-user scenario |
-  | 10:30-10:45 | coffee break                |
-  | 10:45-11:30 | git in multi-user scenario  |
-  | 11:30-11:50 | advanced git features       |
-  | 11:50-12:00 | wrap up                     |
+Total duration: 3 hours
+
+  | Time        | Subject                     | Duration |
+  |-------------|-----------------------------|----------|
+  | 09:00-09:15 | introduction and motivation | 15 min.  |
+  | 09:15-10:30 | git in single-user scenario | 75 min.  |
+  | 10:30-10:45 | coffee break                | 10 min.  |
+  | 10:45-11:30 | git in multi-user scenario  | 15 min.  |
+  | 11:30-11:50 | advanced git features       | 20 min.  |
+  | 11:50-12:00 | wrap up                     | 10 min.  |
+
+## Training materials
 
 Slides are available in the
  [GitHub repository](https://github.com/gjbex/Version-control-with-git/),
 as well as example code and job scripts.
 
 
-# Target audience
+## Target audience
 
 This training is for you if you need to use HPC resources effectively
 for embarrassingly parallel workloads.
 
 
-# Prerequisites
+## Prerequisites
 
 You will need to be comfortable using Linux and the HPC environment.
 If necessary, attend the appropriate training sessions on those subjects.
 
 
-# Trainer(s)
+## Trainer(s)
 
   * Geert Jan Bex ([geertjan.bex@uhasselt.be](mailto:geertjan.bex@uhasselt.be))
