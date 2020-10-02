@@ -18,40 +18,43 @@ When you complete this training you will be able to
   * use the git version control system in a single-user setting;
   * use the git version control system in a multi-user setting;
   * work with branches to separate concerns;
-  * examine the history of a project.
+  * examine the history of a project;
+  * use git though a GUI as well as the command line;
+  * create and manage repositories on Gitlab.
 
 
 ## Schedule
 
-Total duration: 3 hours
+Total duration: 4 hours
 
-  | Time        | Subject                     | Duration |
-  |-------------|-----------------------------|----------|
-  | 09:00-09:15 | introduction and motivation | 15 min.  |
-  | 09:15-10:30 | git in single-user scenario | 75 min.  |
-  | 10:30-10:45 | coffee break                | 10 min.  |
-  | 10:45-11:30 | git in multi-user scenario  | 15 min.  |
-  | 11:30-11:50 | advanced git features       | 20 min.  |
-  | 11:50-12:00 | wrap up                     | 10 min.  |
+  | Time        | Subject                       | Duration |
+  |-------------|-------------------------------|----------|
+  | 09:00-09:15 | introduction and motivation   | 15 min.  |
+  | 09:15-09:45 | Gitlab: manage repositories   | 30 min.  |
+  | 09:15-10:30 | git GUI: single user scenario | 45 min.  |
+  | 10:30-10:45 | coffee break                  | 15 min.  |
+  | 10:45-11:30 | git GUI: multi-user scenario  | 45 min.  |
+  | 11:30-12:30 | git on the command line       | 60 min.  |
+  | 11:30-11:50 | advanced git features         | 20 min.  |
+  | 11:50-12:00 | wrap up                       | 10 min.  |
 
 ## Training materials
 
 Slides are available in the
  [GitHub repository](https://github.com/gjbex/Version-control-with-git/),
-as well as example code and job scripts.
+as well as material for hands-on.
 
 
 ## Target audience
 
-This training is for you if you need to use HPC resources effectively
-for embarrassingly parallel workloads.
+This training is for you if you write texts or code, need to reproduce
+your experiments and collaborate on projects.
 
 
 ## Prerequisites
 
-You will need to be comfortable using Linux and the HPC environment.
-If necessary, attend the appropriate training sessions on those subjects.
-
+For the part on using git from the command line, you will need familiarity
+with either the Linux bash shell, or Windows Command Prompt.
 
 ## Trainer(s)
 
