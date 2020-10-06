@@ -44,6 +44,9 @@ Slides are available in the
  [GitHub repository](https://github.com/gjbex/Version-control-with-git/),
 as well as material for hands-on.
 
+Some [best practices and advice](https://dsi_uhasselt.gitlab.io/vsc/version_control_best_practices/)
+are available online.
+
 
 ## Target audience
 
