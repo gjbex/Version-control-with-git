@@ -48,6 +48,22 @@ Some [best practices and advice](https://dsi_uhasselt.gitlab.io/vsc/version_cont
 are available online.
 
 
+## Video materials
+
+Video recordings of this training are available on YouTube.
+
+1. [Introduction & motivation](https://youtu.be/xxrh2wPkH00) (11.5 minutes)
+1. [git repository hosting](https://youtu.be/cUt0EJuvG60) (6 minutes)
+1. [SmartGit GUI client first push](https://youtu.be/RPtwC12Q6x4) (6.5 minutes)
+1. [Single user scenario](https://youtu.be/Cy7rw3KCIRU) (30 minutes)
+1. [Single user scenario terminal demo](https://youtu.be/z53Fof6He3w) (11 minutes)
+1. [Multiple user scenario](https://youtu.be/f-X98MBBSXw) (24.5 minutes)
+1. [Multiple user scenario demo](https://youtu.be/xpjtrDjRjZw) (10 minutes)
+1. [Some details](https://youtu.be/j35fVulT0Ic) (8 minutes)
+1. [Contributing to repositories](https://youtu.be/H27KBkuMRZE) (13 minutes)
+1. [Conclusions & references](https://youtu.be/dx7ej7Q2vNA) (3 minutes)
+
+
 ## Target audience
 
 This training is for you if you write texts or code, need to reproduce
