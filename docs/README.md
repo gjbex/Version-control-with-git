@@ -75,6 +75,14 @@ your experiments and collaborate on projects.
 For the part on using git from the command line, you will need familiarity
 with either the Linux bash shell, or Windows Command Prompt.
 
+
+## Level
+
+* Introductory: 50 %
+* Intermediate: 40 %
+* Advanced: 10 %
+
+
 ## Trainer(s)
 
   * Geert Jan Bex ([geertjan.bex@uhasselt.be](mailto:geertjan.bex@uhasselt.be))
