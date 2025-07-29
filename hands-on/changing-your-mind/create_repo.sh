@@ -38,7 +38,8 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # intialize the repository and do the first commit
 cd "$target"
 git init
-git add src
+echo '__pycache__/' > .gitignore
+git add src .gitignore
 git commit -m 'Initial commit'
 
 # change 1
