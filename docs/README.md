@@ -1,6 +1,9 @@
 Reproducibility is an important aspect of scientific research.  A version
-control system such as git can help considerably in this respect.  It is also
-and excellent tool for collaboration.  You can use version control on
+control system such as git can help considerably in this respect.  It is an
+important component to ensure you can do your compuations reproducibly.
+
+It is also and excellent tool for collaboration.  You can use version control
+on
   * the text of publications when there are multiple authors;
   * source code of applications that evolve over time;
   * scripts for workflows, data preprocessing or postprocessing.
@@ -74,6 +77,13 @@ your experiments and collaborate on projects.
 
 For the part on using git from the command line, you will need familiarity
 with either the Linux bash shell, or Windows Command Prompt.
+
+For following along hands-on, you need
+* laptop or desktop with internet access;
+* a command-line git client or a GUI client (e.g.,
+  [SmartGit](https://www.syntevo.com/smartgit/);
+* to make sure you have access to or an account on a hosting service such
+  as GitHub, GitLab, or the version control system of your organization.
 
 
 ## Level
