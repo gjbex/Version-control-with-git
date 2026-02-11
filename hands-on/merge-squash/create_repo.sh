@@ -28,12 +28,12 @@ if check_git_repo "$target"; then
     exit 1
 fi
 
-# create directory for repository
-mkdir -p "$target"
-cp -r src "$target/"
-
 # get the directory of this script
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# create directory for repository
+mkdir -p "$target"
+cp -r "$SCRIPT_DIR/src" "$target/"
 
 # intialize the repository and do the first commit
 cd "$target"
