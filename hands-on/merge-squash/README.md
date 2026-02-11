@@ -138,7 +138,7 @@ $_2 git log --oneline
 
 Now the work on the feature is done, and you can squash it into a single
 commit.  In the output of the log, identify the commit hash of the last commit
-before you started working on the feature, which is the initial in this tutorial.
+before you started working on the feature, which is the initial commit in this tutorial.
 Say the hash is `abc123`.  You can then squash all commits after that one into a
 single commit by rebasing interactively, starting from the last commit, which is
 identified by `HEAD`, and going back to the commit before you started working
