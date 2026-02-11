@@ -1,6 +1,6 @@
 # Merge-squash
 
-When merging a feature branch, you may not want to keep the entre history,
+When merging a feature branch, you may not want to keep the entire history,
 i.e., all separate commits in the repository.  There are two scenarios to
 accomplish that.
 
