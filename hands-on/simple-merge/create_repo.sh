@@ -41,29 +41,53 @@ git init
 echo '__pycache__/' > .gitignore
 git add src .gitignore
 git commit -m 'Initial commit'
+sleep 1
 
-# create a feature branch
-git switch -c feature/improve_cli
+# create two feature branches
+git branch feature/hello_cli
+git branch feature/bye_cli
 
-# change 1
+# change 1 to hello
+git switch feature/hello_cli
 rm -r src
-cp -r "$SCRIPT_DIR/src_01/" ./src/
+cp -r "$SCRIPT_DIR/src_01_hello/" ./src/
 git commit -a -m 'Replace sys.argv with argparse'
+sleep 1
 
-# change 2
+# change 1 to bye
+git switch feature/bye_cli
 rm -r src
-cp -r "$SCRIPT_DIR/src_02/" ./src/
+cp -r "$SCRIPT_DIR/src_01_bye/" ./src/
+git commit -a -m 'Replace sys.argv with argparse'
+sleep 1
+
+# change 2 to bye
+git switch feature/bye_cli
+rm -r src
+cp -r "$SCRIPT_DIR/src_02_bye/" ./src/
 git commit -a -m 'Add help messsage to command line arguments'
+sleep 1
 
-# change 3
+# change 3 to bye
+git switch feature/bye_cli
 rm -r src
-cp -r "$SCRIPT_DIR/src_03/" ./src/
+cp -r "$SCRIPT_DIR/src_03_bye/" ./src/
 git commit -a -m 'Remove unnecessary import'
+sleep 1
+
+# change 2 to hello
+git switch feature/hello_cli
+rm -r src
+cp -r "$SCRIPT_DIR/src_02_hello/" ./src/
+git commit -a -m 'Add help messsage to command line arguments'
+sleep 1
+
+# change 3 to hello
+git switch feature/hello_cli
+rm -r src
+cp -r "$SCRIPT_DIR/src_03_hello/" ./src/
+git commit -a -m 'Remove unnecessary import'
+sleep 1
 
 # switch back to main branch
 git switch main
-
-# change in main that will cause conflict when merging feature branch
-rm -r src
-cp -r "$SCRIPT_DIR/src_04/" ./src/
-git commit -a -m 'Change greeting'
