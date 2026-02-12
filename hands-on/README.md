@@ -14,6 +14,8 @@ control with git".
    identify the commit that broke an application.
 1. `changing-your-mind`: illustration of `git restore`, `git revert`, `git
    reset`, and `git rebase` to change your mind about a commit.
+1. `simple-merge`: illustrates that the history of merged branches is linear,
+   and can be confusing.
 1. `merge-squash`: illustration of the `git merge --squash` command to merge a
    branch without keeping the history of the commits in that branch, as well as
    the `git rebase -i` command to rewrite the history of a branch before
