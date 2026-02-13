@@ -20,3 +20,5 @@ control with git".
    branch without keeping the history of the commits in that branch, as well as
    the `git rebase -i` command to rewrite the history of a branch before
    merging it.
+1. `worktrees-stashing/`: illustration of how to use worktrees or stashing to
+   easily do some work on a different branch.
