@@ -10,6 +10,7 @@ control with git".
    backend to run it.
 1. `conflict`: helps you practice how to resolve a conflict hen merging
    branches.
+1. `cherry-pick`: cherry-pick one or more commits from a branch.
 1. `git-bisect`: illustration of how to use the `git bisect` command to
    identify the commit that broke an application.
 1. `changing-your-mind`: illustration of `git restore`, `git revert`, `git
