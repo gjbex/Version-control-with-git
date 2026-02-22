@@ -23,3 +23,5 @@ control with git".
    merging it.
 1. `worktrees-stashing/`: illustration of how to use worktrees or stashing to
    easily do some work on a different branch.
+1. `reflog`: illustration of how to use the `git reflog` command to recover from
+   mistakes.
