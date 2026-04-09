@@ -1,14 +1,14 @@
-Reproducibility is an important aspect of scientific research.  A version
-control system such as git can help considerably in this respect.  It is an
-important component to ensure you can do your compuations reproducibly.
+Reproducibility is an important aspect of scientific research. A version
+control system such as Git can help considerably in this respect. It is an
+important component to ensure you can do your computations reproducibly.
 
-It is also and excellent tool for collaboration.  You can use version control
-on
+It is also an excellent tool for collaboration. You can use version control
+for
   * the text of publications when there are multiple authors;
   * source code of applications that evolve over time;
-  * scripts for workflows, data preprocessing or postprocessing.
+  * scripts for workflows, data preprocessing, or postprocessing.
 
-A version control systems helps you keep track of
+A version control system helps you keep track of
   * what changed,
   * when it was changed,
   * who made the change.
@@ -18,12 +18,12 @@ A version control systems helps you keep track of
 
 When you complete this training you will be able to
 
-  * use the git version control system in a single-user setting;
-  * use the git version control system in a multi-user setting;
+  * use the Git version control system in a single-user setting;
+  * use the Git version control system in a multi-user setting;
   * work with branches to separate concerns;
   * examine the history of a project;
-  * use git though a GUI as well as the command line;
-  * create and manage repositories on Gitlab.
+  * use Git through a GUI as well as the command line;
+  * create and manage repositories on GitHub or a similar hosting platform.
 
 
 ## Schedule
@@ -32,14 +32,14 @@ Total duration: 4 hours
 
   | Time        | Subject                       | Duration |
   |-------------|-------------------------------|----------|
-  | 09:00-09:15 | introduction and motivation   | 15 min.  |
-  | 09:15-09:45 | Gitlab: manage repositories   | 30 min.  |
-  | 09:15-10:30 | git GUI: single user scenario | 45 min.  |
-  | 10:30-10:45 | coffee break                  | 15 min.  |
-  | 10:45-11:30 | git GUI: multi-user scenario  | 45 min.  |
-  | 11:30-12:30 | git on the command line       | 60 min.  |
-  | 11:30-11:50 | advanced git features         | 20 min.  |
-  | 11:50-12:00 | wrap up                       | 10 min.  |
+  | 09:00-09:15 | introduction and motivation   | 10 min.  |
+  | 09:10-10:30 | single-user scenario          | 80 min.  |
+  | 10:30-10:40 | coffee break                  | 10 min.  |
+  | 10:40-12:00 | multi-user scenario           | 80 min.  |
+  | 12:00-12:20 | advanced Git features         | 20 min.  |
+  | 12:20-12:50 | GitHub: manage repositories   | 30 min.  |
+  | 12:50-13:00 | wrap up                       | 10 min.  |
+
 
 ## Training materials
 
@@ -66,31 +66,71 @@ Video recordings of this training are available on YouTube.
 1. [Contributing to repositories](https://youtu.be/H27KBkuMRZE) (13 minutes)
 1. [Conclusions & references](https://youtu.be/dx7ej7Q2vNA) (3 minutes)
 
+*Note*: the recordings are fairly old and may not reflect current best
+practices or the latest features of Git and GitHub. However, the core concepts
+and workflows are still relevant.
+
 
 ## Target audience
 
 This training is for you if you write texts or code, need to reproduce
-your experiments and collaborate on projects.
+your work, and collaborate on projects.
 
 
 ## Prerequisites
 
-For the part on using git from the command line, you will need familiarity
-with either the Linux bash shell, or Windows Command Prompt.
+For the part on using Git from the command line, you will need familiarity
+with either the Linux Bash shell or Windows Command Prompt.
+
+More concretely, participants should already be comfortable with the following:
+
+* creating, editing, and saving ordinary text files on their own system;
+* navigating directories and running basic commands from a shell or terminal;
+* understanding at a high level what files and folders belong to a project;
+* using a GUI application on their platform if they prefer the GUI-oriented
+  parts of the training.
+
+You do not need prior experience with Git itself, branching, merging, GitHub,
+GitHub, or repository hosting platforms. Those are part of the training
+itself.
+
+### Quick self-assessment
+
+If you can do most of the tasks below without looking up basic shell or file
+management syntax, you are likely ready for this training.
+
+* create a new directory for a project and place a few files in it;
+* edit a text file and save the changes;
+* navigate to a project directory in a terminal or command prompt;
+* run a command-line program from that directory;
+* understand that a project can evolve over time and that it is useful to keep
+  earlier versions;
+* understand that several people may want to make changes to the same project.
+
+If several of these items still feel difficult, the training will probably move
+too fast. In that case, it is better to first refresh basic file management and
+command-line use.
 
 For following along hands-on, you need
 * laptop or desktop with internet access;
-* a command-line git client or a GUI client (e.g.,
-  [SmartGit](https://www.syntevo.com/smartgit/);
+* a command-line Git client or a GUI client (e.g.,
+  [SmartGit](https://www.syntevo.com/smartgit/));
 * to make sure you have access to or an account on a hosting service such
   as GitHub, GitLab, or the version control system of your organization.
 
 
-## Level
+## Level of the Material
 
-* Introductory: 50 %
-* Intermediate: 40 %
+For participants who are new to Git but already comfortable with ordinary file
+and shell operations, the material in this training is approximately
+
+* Introductory: 55 %
+* Intermediate: 35 %
 * Advanced: 10 %
+
+These percentages describe the level of the Git and collaboration topics
+covered in the training, not the required entry level in programming or shell
+usage itself.
 
 
 ## Trainer(s)
