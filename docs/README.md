@@ -111,6 +111,8 @@ If several of these items still feel difficult, the training will probably move
 too fast. In that case, it is better to first refresh basic file management and
 command-line use.
 
+### Software and access requirements
+
 For following along hands-on, you need
 * laptop or desktop with internet access;
 * a command-line Git client or a GUI client (e.g.,
