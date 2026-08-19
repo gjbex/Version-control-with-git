@@ -1,0 +1,143 @@
+schema_version = 2
+id = "version-control-with-git"
+title = "Version control with git"
+content_language = "en"
+summary = """
+Reproducibility is an important aspect of scientific research. A version control system such as Git can help considerably in this respect. It is an important component to ensure you can do your computations reproducibly. It is also an excellent tool for collaboration. You can use version control for * the text of publications when there are multiple authors; * source code of applications that evolve over time; * scripts for workflows, data preprocessing, or postprocessing. A version control system helps you keep track of * what changed, * when it was changed, * who made the change.
+"""
+
+[[learning_outcomes]]
+statement = "Use the Git version control system in a single-user setting."
+competencies = ["git.everyday-local-workflow"]
+
+[[learning_outcomes]]
+statement = "Use the Git version control system in a multi-user setting."
+competencies = ["git.collaborative-workflow"]
+
+[[learning_outcomes]]
+statement = "Work with branches to separate concerns."
+competencies = ["git.branches"]
+
+[[learning_outcomes]]
+statement = "Examine the history of a project."
+competencies = ["git.inspect-history-and-revisions"]
+
+[[learning_outcomes]]
+statement = "Use Git through a GUI as well as the command line."
+competencies = ["git.gui-and-command-line"]
+
+[[learning_outcomes]]
+statement = "Create and manage repositories on GitHub or a similar hosting platform."
+competencies = ["git.repository-hosting"]
+
+[source]
+metadata_document = "docs/README.md"
+repository_url = "https://github.com/gjbex/Version-control-with-git/"
+website_url = "https://gjbex.github.io/Version-control-with-git/"
+license = "CC-BY-4.0"
+
+[delivery]
+duration_minutes = 240
+duration_kind = "fixed"
+session_count = 1
+target_session_duration_minutes = 240
+schedule_complete = true
+description = """
+Total duration: 4 hours
+"""
+
+[audience]
+description = """
+This training is for you if you write texts or code, need to reproduce your work, and collaborate on projects.
+"""
+
+[prerequisites]
+summary = """
+For the part on using Git from the command line, you will need familiarity with either the Linux Bash shell or Windows Command Prompt. More concretely, participants should already be comfortable with the following: * creating, editing, and saving ordinary text files on their own system; * navigating directories and running basic commands from a shell or terminal; * understanding at a high level what files and folders belong to a project; * using a GUI application on their platform if they prefer the GUI-oriented parts of the training. You do not need prior experience with Git itself, branching, merging, GitHub, GitHub, or repository hosting platforms. Those are part of the training itself.
+"""
+competencies = ["command-line.navigate-filesystem", "command-line.manage-files", "command-line.run-or-compile-programs"]
+
+[self_assessment]
+introduction = """
+If you can do most of the tasks below without looking up basic shell or file management syntax, you are likely ready for this training.
+"""
+tasks = [
+  "Create a new directory for a project and place a few files in it.",
+  "Edit a text file and save the changes.",
+  "Navigate to a project directory in a terminal or command prompt.",
+  "Run a command-line program from that directory.",
+  "Understand that a project can evolve over time and that it is useful to keep earlier versions.",
+  "Understand that several people may want to make changes to the same project."
+]
+
+[requirements]
+software = [
+  "Laptop or desktop with internet access.",
+  "A command-line Git client or a GUI client (e.g., [SmartGit](https://www.syntevo.com/smartgit/)).",
+  "To make sure you have access to or an account on a hosting service such as GitHub, GitLab, or the version control system of your organization."
+]
+
+[level]
+introductory_percent = 55
+intermediate_percent = 35
+advanced_percent = 10
+description = """
+For participants who are new to Git but already comfortable with ordinary file and shell operations, the material in this training is approximately These percentages describe the level of the Git and collaboration topics covered in the training, not the required entry level in programming or shell usage itself.
+"""
+
+[[materials]]
+kind = "slides"
+path = "ku_leuven_gitlab.pptx"
+
+[[materials]]
+kind = "slides"
+path = "version_control_git.pptx"
+
+[[materials]]
+kind = "slides"
+path = "version_control_svn.pptx"
+
+[[materials]]
+kind = "exercises"
+path = "hands-on"
+
+[[trainers]]
+name = "Geert Jan Bex"
+email = "geertjan.bex@uhasselt.be"
+
+[[maintainers]]
+name = "Geert Jan Bex"
+email = "geertjan.bex@uhasselt.be"
+
+[[sessions]]
+id = "session-1"
+title = "Session one"
+duration_minutes = 240
+
+[[sessions.items]]
+subject = "09:00-09:15"
+duration_minutes = 10
+
+[[sessions.items]]
+subject = "09:10-10:30"
+duration_minutes = 80
+
+[[sessions.items]]
+subject = "10:30-10:40"
+duration_minutes = 10
+
+[[sessions.items]]
+subject = "10:40-12:00"
+duration_minutes = 80
+
+[[sessions.items]]
+subject = "12:00-12:20"
+duration_minutes = 20
+
+[[sessions.items]]
+subject = "12:20-12:50"
+duration_minutes = 30
+
+[[sessions.items]]
+subject = "12:50-13:00"
+duration_minutes = 10
